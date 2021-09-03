@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/user/erondu/1600x900');
+    font-size: 100%;
+}
+.card{
+    background-color: #000000d0;
+    color: whitesmoke;
+    padding: 3em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    font-weight:inherit;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 36px;
+    width: 36px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background: #7c7c7c2b;
+}
+input.search-bar{
+    border: none;
+    outline: none;
+    border-radius: 64px;
+    background-color: #7c7c7c2b;
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 90%;
+    width: calc(100% - 100px);
+    cursor: pointer;
+    height: 36px;
+    margin: 0;
+}
+button:hover{
+    background-color: #7c7c7c6b;
+}
+input:hover{
+    background-color: #7c7c7c6b;
+}
+.temp{
+    font-weight: bold;
+    font-size: 180%;
+}
+h1.temp{
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+.flex{
+    display: flex;
+    align-items: center
+}
+.description{
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
